@@ -1,0 +1,36 @@
+body{
+    background-color: #111;
+}
+div{
+    width: 100px;
+    height: 100px;
+    animation: ammar 2s linear 2s infinite normal both;
+    background-color: red;
+    transition: 1s;
+    border-radius: 4px;
+
+}
+@keyframes ammar{
+   0%{
+    translate: 0 0px;
+    rotate: 0deg;
+
+   }
+    25%{
+        translate: 0 100px;
+        rotate: 100deg;
+    }
+    50%{
+        translate:200px  100px;
+        rotate: 190deg;
+    }
+    75%{
+        translate:200px  000px;
+       rotate: 290deg;
+    }
+    100%{
+        translate:0px  000px;
+        rotate: 360deg;
+    }
+    
+}

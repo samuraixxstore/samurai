@@ -1,0 +1,55 @@
+.aM{
+  font-weight: 500;
+   margin-left: 40PX;
+   width: 100%;
+   position: fixed;
+  background-color: red;
+   align-items: center;
+   justify-content: space-between;
+   display: contents;
+   padding: 30px;
+   z-index: 2;
+   left: -20px;
+   
+ 
+}
+.sd{
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  transition: 2s ;
+  transition-delay: 0.7s;
+  color: red;
+ 
+}
+.sd:hover{
+  width: 40%;
+ 
+}
+.amma{
+  z-index: calc(40PX);
+  color: rgb(139, 9, 9);
+  width: 20%;
+  z-index: 300;
+  transition: 0.9s;
+  background-color: rgb(22, 101, 151);
+  z-index: 7;
+  align-items: baseline;
+
+}
+a:visited{
+background-color: #31049a;
+text-decoration: none;
+}
+.abv:hover{
+  width: 90px;
+  color: black;
+  background-color: red;
+  
+}
+.nm:focus{
+ background-color: black;
+}
+.nm:hover{
+ background-color: aquamarine;
+}
